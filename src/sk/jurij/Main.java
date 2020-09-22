@@ -1,9 +1,9 @@
 package sk.jurij;
 
+import sk.jurij.excercises.*;
+
 public class Main {
-
-    public static void main(String[] args) {
-        System.out.println(Triangle.isTriangle(2,3,4));
+    public static void main(String[] args){
+        System.out.println("Welcome, all exercises can be found in exercises package!");
     }
-
 }
