@@ -1,4 +1,4 @@
-package sk.jurij.excercises;
+package sk.jurij.exercises;
 
 public class Slice {
     public static boolean equalSlices(int slices, int recipients, int each){

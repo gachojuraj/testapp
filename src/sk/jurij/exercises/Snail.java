@@ -1,4 +1,4 @@
-package sk.jurij.excercises;
+package sk.jurij.exercises;
 
 public class Snail {
     public static double TotalDistance(double stepHeight, double stepLength, double height){

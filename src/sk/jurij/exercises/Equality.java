@@ -1,4 +1,4 @@
-package sk.jurij.excercises;
+package sk.jurij.exercises;
 
 public class Equality {
     public static int equal(int a, int b, int c){

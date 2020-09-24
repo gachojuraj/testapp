@@ -1,4 +1,4 @@
-package sk.jurij.excercises;
+package sk.jurij.exercises;
 
 public class Multiply {
     public static int[] MultiplyByLength(int[] arr){

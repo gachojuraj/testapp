@@ -1,4 +1,4 @@
-package sk.jurij.excercises;
+package sk.jurij.exercises;
 
 public class Triangle {
     public static boolean isTriangle(int a, int b, int c){
