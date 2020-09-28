@@ -1,6 +1,6 @@
 package sk.jurij.exercises;
 
-public class Triangle {
+public class TriangleCheck {
     public static boolean isTriangle(int a, int b, int c){
         int[] arr = {a,b,c,a,b};
         for (byte  i = 0; i < 3; i++)
