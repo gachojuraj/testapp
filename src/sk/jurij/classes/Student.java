@@ -2,13 +2,13 @@ package sk.jurij.classes;
 
 public class Student {
     String name;
-    int roll_no;
+    int number;
     String address;
     int phone;
 
-    public Student(String name, int roll_no, int phone, String address){
+    public Student(String name, int number, int phone, String address){
         this.name = name;
-        this.roll_no = roll_no;
+        this.number = number;
         this.address = address;
         this.phone = phone;
     }
@@ -17,8 +17,8 @@ public class Student {
         return name;
     }
 
-    public int getRollNo() {
-        return roll_no;
+    public int getStudentNumber() {
+        return number;
     }
 
     public int getPhoneNumber() {
