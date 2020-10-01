@@ -28,4 +28,20 @@ public class Student {
     public String getAddress() {
         return address;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setPhone(int phone) {
+        this.phone = phone;
+    }
 }
