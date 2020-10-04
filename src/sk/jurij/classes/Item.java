@@ -1,8 +1,8 @@
 package sk.jurij.classes;
 
 public class Item {
-    String name;
-    int value;
+    private final String name;
+    private final int value;
 
     public String getName() {
         return name;

@@ -1,6 +1,7 @@
 package sk.jurij.classes;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class Warrior {
     String name;
@@ -17,31 +18,26 @@ public class Warrior {
         this.items = items;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getLife() {
-        return life;
-    }
-
-    public int getSpeed() {
-        return speed;
-    }
-
-    public int getMuscle() {
-        return muscle;
-    }
-
     public ArrayList<Item> getItems() {
         return items;
     }
 
-    public void setLife(int life) {
-        this.life = life;
-    }
-
     public int getTotalForce(){
         return speed+muscle+life;
+    }
+
+    public Item getBestItem(){
+        if (items.size() == 0) return null;
+        return items.stream().max(Comparator.comparing(Item::getValue)).get();
+    }
+
+    public void moveItem(Item item, Warrior warrior){
+        if (item == null) return;
+        items.remove(item);
+        warrior.getItems().add(item);
+    }
+
+    public void damage(){
+        life--;
     }
 }
